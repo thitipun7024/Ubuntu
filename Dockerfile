@@ -1,2 +1,2 @@
 FROM nginx
-COPY ./web /usr/share/nginx/html/thitipun/
+COPY ./web/ /usr/share/nginx/html/thitipun
