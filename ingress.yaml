@@ -13,8 +13,8 @@ spec:
           service:
             name: thitipun7024
             port:
-              number: 8000
-        path: /thitipun/
+              number: 80
+        path: /thitipun
         pathType: Prefix
 status:
   loadBalancer: {}
