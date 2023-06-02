@@ -19,7 +19,7 @@ spec:
         app: thitipun
     spec:
       containers:
-      - image: latest
+      - image: nginx:latest
         name: latest
         resources: {}
 status: {}
