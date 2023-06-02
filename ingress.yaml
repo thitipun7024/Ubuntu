@@ -14,7 +14,7 @@ spec:
             name: thitipun7024
             port:
               number: 8000
-        path: /
+        path: /thitipun/
         pathType: Prefix
 status:
   loadBalancer: {}
