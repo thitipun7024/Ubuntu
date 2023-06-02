@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   creationTimestamp: null
-  name: nginx
+  name: thitipun
   namespace: thitipun-dev
 spec:
   rules:
@@ -13,7 +13,7 @@ spec:
           service:
             name: nginx
             port:
-              number: 8080
+              number: 8000
         path: /
         pathType: Prefix
 status:

@@ -8,8 +8,8 @@ metadata:
   namespace: thitipun-dev
 spec:
   ports:
-  - name: 8080-80
-    port: 8080
+  - name: 8000-80
+    port: 8000
     protocol: TCP
     targetPort: 80
   selector:

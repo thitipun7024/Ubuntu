@@ -3,20 +3,20 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: nginx
-  name: nginx
+    app: thitipun
+  name: thitipun
   namespace: thitipun-dev
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      app: thitipun
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: nginx
+        app: thitipun
     spec:
       containers:
       - image: latest
