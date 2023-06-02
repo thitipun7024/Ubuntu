@@ -1,3 +1,3 @@
 FROM nginx
-RUN mkdir thitipun
+RUN mkdir /usr/share/nginx/html/thitipun
 COPY ./web/ /usr/share/nginx/html/thitipun
