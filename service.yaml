@@ -3,17 +3,17 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: nginx
-  name: nginx
+    app: thitipun
+  name: thitipun
   namespace: thitipun-dev
 spec:
   ports:
-  - name: 80-80
-    port: 80
+  - name: 8080-80
+    port: 8080
     protocol: TCP
     targetPort: 80
   selector:
-    app: nginx
+    app: thitipun
   type: ClusterIP
 status:
   loadBalancer: {}

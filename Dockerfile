@@ -1,2 +1,2 @@
-FROM nginx:alpine
+FROM nginx
 ADD ./web /usr/share/nginx/html/web/
