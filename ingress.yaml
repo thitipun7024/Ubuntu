@@ -11,7 +11,7 @@ spec:
       paths:
       - backend:
           service:
-            name: thitipun7024
+            name: thitipun7024/thitipun-dev
             port:
               number: 8000
         path: /

@@ -19,7 +19,7 @@ spec:
         app: thitipun
     spec:
       containers:
-      - image: thitipun-dev
+      - image: thitipun7024thitipun-dev
         name: latest
         resources: {}
 status: {}
