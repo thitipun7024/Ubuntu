@@ -1,0 +1,17 @@
+version: '3.8'
+services: 
+    web:
+        image: thitipun:latest
+        container_name: thitipun-web
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        restart: always
+        ports: 
+            - "8080:80"
+        volumes: 
+            - ./web:/usr/share/nginx/html
+        stdin_open: true
+        tty: true
+        environment:
+            TZ: Asia/Bangkok
